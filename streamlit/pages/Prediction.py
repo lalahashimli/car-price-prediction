@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import warnings
 import pickle
-import xgboost
 import numpy as np
 import time
 from xgboost import XGBRegressor
