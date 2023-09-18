@@ -11,7 +11,7 @@ warnings.filterwarnings(action='ignore')
 
 # df = pd.read_csv('turbo.csv')
 
-moto4_image = Image.open('moto4.png')
+moto4_image = Image.open('streamlit/moto4.png')
 
 interface = st.container()
 
