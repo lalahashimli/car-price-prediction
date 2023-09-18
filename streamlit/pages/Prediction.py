@@ -385,7 +385,7 @@ with interface:
 
     st.subheader(body = 'Model Prediction')
     
-    with open('car_model.pickle', 'rb') as pickled_model:
+    with open('streamlit/car_model.pickle', 'rb') as pickled_model:
         
         model = pickle.load(pickled_model)
     
