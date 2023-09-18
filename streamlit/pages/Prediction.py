@@ -5,7 +5,7 @@ import warnings
 import pickle
 import numpy as np
 import time
-import sklearn
+# import sklearn
 # from sklearn.model_selection import RepeatedKFold,RepeatedStratifiedKFold,StratifiedKFold,train_test_split,GridSearchCV,cross_val_score
 # from sklearn.preprocessing import StandardScaler , RobustScaler, MaxAbsScaler,MinMaxScaler,OneHotEncoder, LabelEncoder
 # from sklearn.feature_selection import SequentialFeatureSelector
