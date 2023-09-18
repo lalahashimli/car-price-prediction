@@ -8,7 +8,7 @@ import PIL
 from PIL import Image
 
 
-df = pd.read_csv('../turbo.csv')
+df = pd.read_csv('turbo.csv')
 
 
 interface = st.container()
