@@ -13,7 +13,7 @@ from sklearn.feature_selection import SequentialFeatureSelector
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 
-df = pd.read_csv('../turbo.csv')
+df = pd.read_csv('turbo.csv')
 
 df.columns = df.columns.str.replace(pat = ' ', repl = '_')
 df.columns = df.columns.str.lower()
