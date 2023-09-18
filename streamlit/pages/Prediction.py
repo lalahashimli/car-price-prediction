@@ -9,7 +9,7 @@ import time
 # from sklearn.preprocessing import StandardScaler , RobustScaler, MaxAbsScaler,MinMaxScaler,OneHotEncoder, LabelEncoder
 # from sklearn.feature_selection import SequentialFeatureSelector
 # from sklearn.compose import ColumnTransformer
-# from sklearn.impute import SimpleImputer
+from sklearn.impute import SimpleImputer
 
 df = pd.read_csv('turbo.csv')
 
